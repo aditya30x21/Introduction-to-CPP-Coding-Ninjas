@@ -24,11 +24,13 @@ void selectionSort(int arr[], int n)
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;
 
+        /*
         for (int i = 0; i < n; i++)
         {
             cout << arr[i] << " ";
         }
         cout << endl;  //To see step by step working
+        */
     }
 }
 
