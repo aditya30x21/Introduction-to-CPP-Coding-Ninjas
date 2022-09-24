@@ -17,7 +17,7 @@ void selectionSort(int arr[], int n)
                 min = arr[j];
                 minIndex = j;
             }
-            cout << min << endl; //for checking minimum step by step
+            // cout << min << endl; //for checking minimum step by step
         }
 
         int temp = arr[i];
